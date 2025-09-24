@@ -1,0 +1,249 @@
+    1  gh
+    2  gh
+    3  git --version
+    4  cd
+    5  mkdir
+    6  mkdir --help
+    7   git cloe https://github.com/compsys-progtools/gh-inclass-fa25-vincehalloran.git
+    8  cd onedrive desktop csc311
+    9  cd C:\Users\vince\OneDrive\Desktop\csc311~
+   10  cd $ cd ^[[200~C:\Users\vince\OneDrive\Desktop\csc311~
+   11  cd $ cd \C:\Users\vince\OneDrive\Desktop\csc311~
+   12  cd C:\Users\vince\OneDrive\Desktop\csc311
+   13  pwd
+   14  cd Desktop
+   15  cd Desktop
+   16  cd Desktop
+   17  cd C:\Desktop\CSC311
+   18  pwd
+   19  cd ..
+   20  cd Desktop
+   21  ls
+   22  cd vince/
+   23  ls
+   24  cd OneDrive/
+   25  ls
+   26  cd Desktop
+   27  ls
+   28  cd 311
+   29  cd csc311
+   30  ls
+   31  git clone https://github.com/compsys-progtools/gh-inclass-fa25-vincehalloran.git
+   32  ls
+   33  git status
+   34  git fetch origin
+   35  git checkout 13-add-a-readme
+   36  cd gh-inclass-fa25-vincehalloran/
+   37  git fetch origin
+   38  git checkout 13-add-a-readme
+   39  git checkout 1-add-a-readme
+   40  git fetch origin
+   41  git checkout 1-create-readme
+   42  git status
+   43  touch readme.md
+   44  nano readme.md
+   45  git add --help
+   46  git add.
+   47  create a readme closes #1
+   48  git add --help
+   49  git commit -m
+   50  git commit -m "create a readme closes #1"
+   51   git config --global user.email "vince_halloran@uri.edu"
+   52  git commit -m "create a readme closes #1"
+   53  git add .
+   54  git status
+   55  git commit -m "create a readme closes #1"
+   56  ls
+   57  cd
+   58  pwd
+   59  git push
+   60  cd
+   61  cd kwl
+   62  gh repo view --web
+   63  gh auth login
+   64  git checkout main
+   65  git fetch
+   66  [200~cd Documents/github/gh-inclass
+   67  cd Documents/github/gh-inclass
+   68  pwd
+   69  ls
+   70  [200~git add .
+   71  git commit -m "your message here"
+   72  git push origin main
+   73  git checkout main
+   74  git fetch
+   75  ls
+   76  git checkout -b grade_plan
+   77  cd my-class-repo
+   78  git clone [200~
+   79  vince@DESKTOP-25BTRTP MINGW64 ~
+   80  $ git checkout -b grade_plan
+   81  fatal: not a git repository (or any of the parent directories): .git
+   82  vince@DESKTOP-25BTRTP MINGW64 ~
+   83  $ ^C
+   84  vince@DESKTOP-25BTRTP MINGW64 ~
+   85  $ cd my-class-repo
+   86  bash: cd: my-class-repo: No such file or directory
+   87  vince@DESKTOP-25BTRTP MINGW64 ~
+   88  $ git clone
+   89  pwd
+   90  cd desktop 
+   91  cd 
+   92  cd Documents/inclass/systems/gh-inclass-fa25-vincehalloran/
+   93  git status
+   94  git push
+   95  ls
+   96  git fetch
+   97  cd documents
+   98  cd csc311
+   99  cd CSC311
+  100  cd OneDrive/Desktop/csc311/inclass/systems/gh-inclass-fa25-vincehalloran
+  101  git status
+  102  nano about.md
+  103  git add about.md
+  104  git commit -m "added another fun fact"
+  105  git push
+  106  nano about.md
+  107  git add about.md
+  108  git commit -m "another fun fact"
+  109  git pull --rebase
+  110  nano about.md
+  111  git add about.md
+  112  git rebase --continue
+  113  git rebase --continue
+  114  git status
+  115  git rebase --continue
+  116  git commit --amend
+  117  git rebase --continue
+  118  git push
+  119  git rebase --abort
+  120  git status
+  121  rm -rf .git/rebase-merge
+  122  git status
+  123  cat about.md
+  124  git log >> ../<yourkwlrepo>/experiences/2025-09-16.md
+  125  cd ~/OneDrive/Desktop/csc311/inclass/systems/gh-inclass-fa25-vincehalloran
+  126  git log >> ../kwl-fa25-vincehalloran/experiences/2025-09-16.md
+  127  cd ../kwl-fa25-vincehalloran
+  128  cd ~/OneDrive/Desktop/csc311/inclass/systems/gh-inclass-fa25-vincehalloran
+  129  git pull
+  130  git checkout organizing_ac
+  131  ls
+  132  git checkout -b organization
+  133  git status
+  134  cat README.md 
+  135  cat API.md
+  136  echo "today is rainy" >> README.md 
+  137  echo "rain is sad" > README.md 
+  138  git restore README.md 
+  139  mkdir docs
+  140  mkdir tests
+  141  mv philosophy.md docs/
+  142  mv *.yml docs/
+  143  mv tsets_abc.py tests/tests_abc.py
+  144  mv tests_* tests/
+  145  ls docs/
+  146  ls test/
+  147  mkdir tests
+  148  mv tests_* tests/
+  149  ls
+  150  ls tests/
+  151  la -a
+  152  ls -a
+  153  touch .secret .gitignore
+  154  echo "my dev secret" > .secret
+  155  cat .secret
+  156  ls -a
+  157  touch .secret .gitignore
+  158  echo "my dev secret"> .secret
+  159  cat .secret
+  160  git add.
+  161  git add .
+  162  git commit -m "add a gitignore and organize files"
+  163  git rm --cached .secret
+  164  git commit -m "stop tracking .secret, keep it in gitignore"
+  165  git status
+  166  git push origin organization
+  167  history > activity-2025-09-18.md
+  168  echo "***--" >> activity-2025-09-18.md
+  169  git status >> activity-2025-09-18.md
+  170  echo "***--" >> activity-2025-09-18.md
+  171  ls >> activity-2025-09-18.md
+  172  echo "***--" >> activity-2025-09-18.md
+  173  ls docs/ >> activity-2025-09-18.md
+  174  git rm --cached .secret
+  175  git commit -m "stop tracking .secret"
+  176  git push
+  177  history > activity-2025-09-18.md
+  178  echo "***--" >> activity-2025-09-18.md
+  179  git status >> activity-2025-09-18.md
+  180  echo "***--" >> activity-2025-09-18.md
+  181  ls >> activity-2025-09-18.md
+  182  echo "***--" >> activity-2025-09-18.md
+  183  ls docs/ >> activity-2025-09-18.md
+  184  git add activity-2025-09-18.md
+  185  git commit -m "add day 3 activity log"
+  186  git push
+  187  git checkout main
+  188  [200~
+  189  vince@DESKTOP-25BTRTP MINGW64 ~/OneDrive/Desktop/csc311/inclass/systems/gh-inclass-fa25-vincehalloran (organization)
+  190  $ git checkout main
+  191  git log > gitlog.txt
+  192  echo "" >> gitlog.txt
+  193  echo "## Commands" >> gitlog.txt
+  194  history >> gitlog.txt
+  195  git add gitlog.txt
+  196  git commit -m "export git log for badge"
+  197  git push
+  198  Deletion of directory 'docs' failed. Should I try again? (y/n)
+  199  git checkout main
+  200  git log > gitlog.txt
+  201  echo "" >> gitlog.txt
+  202  echo "## Commands" >> gitlog.txt
+  203  history >> gitlog.txt
+  204  git add gitlog.txt
+  205  git commit -m "export git log for badge"
+  206  git push
+  207  [200~cd OneDrive/Desktop/csc311/inclass/systems/gh-inclass-fa25-vincehalloran
+  208  cd OneDrive/Desktop/csc311/inclass/systems/gh-inclass-fa25-vincehalloran
+  209  cd OneDrive/Desktop/csc311/inclass/systems/gh-inclass-fa25-vincehalloran
+  210  git status
+  211  git restore .
+  212  git status
+  213  rm -f .git/index.lock
+  214  git restore .
+  215  git status
+  216  git checkout main
+  217  git restore --staged docs
+  218  git restore docs
+  219  git checkout main 
+  220  git checkout main
+  221  git log > gitlog.txt
+  222  echo "" >> gitlog.txt
+  223  echo "## Commands" >> gitlog.txt
+  224  history >> gitlog.txt
+  225  git add gitlog.txt
+  226  git commit -m "export git log for badge"
+  227  git push
+  228  echo "### Comparing Commit Definitions
+
+- **Snapshot View**: A commit is like a snapshot — it captures the repo exactly as it looks at that point in time.
+- **Implementation View**: A commit is stored as a file in .git with pointers to trees (file structure) and blobs (file contents).
+
+**Difference**: One view is high-level (like a picture), the other is low-level (how Git actually stores it).
+**Why Both Help**: Knowing both makes it easier to debug and understand Git when things go wrong." > commit-def.md
+  229  git add commit-def.md
+  230  git commit -m "add commit definitions comparison"
+  231  git push
+  232  echo "### Commit Detail
+
+GitHub link: <PASTE_COMMIT_URL_HERE>
+
+Local view with cat-file:
+$(git cat-file -p <YOUR_COMMIT_HASH>)
+  233  **Notes**: GitHub shows author, message, and changed files.  
+  234  Locally, cat-file shows the commit internals (tree hash, parent, author, committer, and message)." > commit-detail.md
+  235  git add commit-detail.md
+  236  git commit -m "add commit detail comparison"
+  237  git push
+  238  history > log-2025-09-24.txt
